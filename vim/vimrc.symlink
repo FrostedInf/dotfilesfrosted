@@ -19,7 +19,10 @@ set tabstop=2
 set shiftwidth=2
 " On pressing tab, insert 4 spaces
 set expandtab
-
+" spell-check set to F6:
+map <F6> :setlocal spell! spelllang=en_us<CR>
+map <F7> :set spelllang=es<CR>
+" plugins settings "
 call plug#begin('~/.vim/plugged')
 
 " Temas
